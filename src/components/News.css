@@ -1,0 +1,64 @@
+.head{
+    background-color:rgb(216, 231, 0);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    margin: 0 20px ;
+}
+ul{
+   display: flex;
+   gap: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 500;
+   cursor: pointer;
+}
+.btn{
+    background-color: transparent;
+}
+.btn:hover{
+    background-color: transparent;
+ color: red;
+}
+button{
+    color: black;
+    background-color: red;
+    border: 0;
+    padding: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 2px;
+    &&:hover{
+        color: white;
+        background-color: black;
+    }
+}
+input{
+padding: 1px;
+
+}
+@media (max-width: 600px){
+    ul{
+        display: none;
+    }
+}
+.name{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-style: italic;
+}
+a{
+        text-decoration: none;
+        color: black;
+        &&:hover{
+            color:rgb(138, 20, 138);
+        }
+}
